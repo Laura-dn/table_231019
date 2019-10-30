@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td {
+    height: 65px;
+    width: 55px;
+    text-align: center;
+    border: solid 1px rgb(251, 251, 240);
+    font-weight: bold;
+}
+
+table {border-collapse: collapse;}
+.orange{background-color: orange;}
+.blue{background-color: rgb(86, 114, 236);}
+.blue2{background-color: rgb(86, 146, 236);}
+.bej{background-color: burlywood;}
+.yel{background-color: yellow;}
+.gr{background-color: rgb(129, 161, 129);}
+.gr2{background-color: rgb(25, 219, 171);}
+.per{background-color: rgb(236, 198, 241);}
+.sil{background-color: rgb(236, 244, 246);}
+.viol{background-color: rgb(219, 90, 187);}
+.lil{background-color: lightcoral;}
+.fon{background-color: rgb(251, 251, 240);}
+.big{font-size: 1.8em;}
+div:nth-child(3) {font-size: 0.6em;}
+
+.sec1 {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+}
+
+.sec2 {
+    position: absolute;
+    top: 70px;
+    left: 320px;
+}
+div.metallOrNotmetall {
+    font-size: 0.75em;
+}
+
+.noMetall {
+    margin-top: 10px;
+    font-weight: bold;
+    padding-left: 14px;
+}
+span {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
